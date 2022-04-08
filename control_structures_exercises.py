@@ -1,4 +1,4 @@
-#Conditional Basics:
+#Conditional Basics:_____________________________________________________________________________________
 #1
 ## a) Prompt the user for a day of the week, print out whether the day is Monday or not
 
@@ -54,8 +54,9 @@ else:
 .
 .
 .
-#2) LOOP exercises
-##a) #Create an integer variable i with a value of 5.
+#2) LOOP exercises______________________________________________________________________________
+
+###Create an integer variable i with a value of 5.
 #Create a while loop that runs so long as i is less than or equal to 15
 #Each loop iteration, output the current value of i, then increment i by one.
 i = 5
@@ -66,8 +67,44 @@ while i <= 15:
 
 .
 .
+
+###Create a while loop that will count by 2's starting with 0 and ending at 100. 
+#Follow each number with a new line.
+i = 2
+
+while i in range(1,101):
+        print(i)
+        i = i * 2
+
 .
 .
+
+###Alter your loop to count backwards by 5's from 100 to -10.
+i = 100
+
+while i >= -10:
+    print(i)
+    i = i - 5
+
 .
 .
-##b)
+###Create a while loop that starts at 2, 
+# and displays the number squared on each line while the number is less than 1,000,000. 
+i = 2
+
+while i <= 1000000:
+    print(i)
+    i = i **2
+
+.
+.
+###Write a loop that uses print to create the output shown below.
+i = 100
+
+while i >= 5:
+    print(i)
+    i = i - 5
+
+.
+.
+
