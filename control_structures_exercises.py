@@ -143,7 +143,21 @@ while i<=50:
     
     else: 
         print("Here is an odd number:", i)
-    i = i+2 
+    i = i+2  
 
-    
+
+##Prompt the user to enter a positive number and write a loop that counts from 0 to that number. 
+#(Hints: first make sure that the value the user entered is a valid number, 
+##also note that the input function returns a string, so you'll need to convert this to a numeric type.) 
+i = 1
+user_input = int(input("Choose a positive number: "))
+n = user_input
+while True:
+    for i in range (0, user_input):
+        print(i)
+    i = i + 1
+    if i == i:
+        print(user_input)
+        break
+
 
