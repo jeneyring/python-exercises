@@ -116,7 +116,18 @@ for i in range(1,n+1):
 # (Hint: use the isdigit method on strings to determine this).
 
 
+user_input = input('Number to skip is: ')
+i = 1
+odd_number = x % 2 != 0
+
+while i in range(1,51):
+    print(i)
+    i = i + 2
+
+if user_input == isdigit % 2 != 0:
+    print('Well done')
+else:
+    print(input('Try again: '))
 
 #  Use a loop and the continue statement to output all the 
 # odd numbers between 1 and 50, except for the number the user entered.
-
