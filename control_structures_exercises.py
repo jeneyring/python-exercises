@@ -210,4 +210,31 @@ for i in range(51):
         print(i)
         i=i+1
 
+#4) TABLES::::
+#Prompt the user to enter an integer.
+#Display a table of squares and cubes from 1 to the value entered.
+##Ask if the user wants to continue.
+#Assume that the user will enter valid data.
+##Only continue if the user agrees to.
+
+number = 0
+square = 0
+cube = 0
+
+user_input=int(input("What number do you want to go up to?  "))
+# print the header
+print('number\tsquare\tcube')
+# \t creates the spacing between titles
+
+for number in range(0, 20):
+    square = number * number
+    cube = number * number * number
+    
+    # print the rows using f-strings
+    print(f'{number}\t{square}\t{cube}')
+    
+    if number == user_input:
+        break
+
+
 #
