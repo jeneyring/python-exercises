@@ -132,7 +132,7 @@ while i<=50:
 # odd numbers between 1 and 50, except for the number the user entered.
 
 
-#NOT FINISHED///////////
+#NOT FINISHED///////////(need to figure out the except part)
 num = int(input("Choose an odd number from 1-50:  "))
 i = 1
 
@@ -160,4 +160,54 @@ while True:
         print(user_input)
         break
 
+##Write a program that prompts the user for a positive integer. 
+#Next write a loop that prints out the numbers from the number the user entered down to 1.
 
+i = 1
+user_input = int(input("Choose a positive number: "))
+n = user_input
+while True:
+    print(user_input)
+    for i in reversed(range(0, user_input)):
+        print(i)
+    i = i - 1
+    if i == i:
+        break
+
+
+
+#3) FIZZBIZZ::::
+#Write a program that prints the numbers from 1 to 100.
+i = 1
+for i in range(1,101):
+    print(i)
+    i=i+1
+
+#For multiples of three print "Fizz" instead of the number
+i = 1 
+for i in range(50):
+    if i % 3 ==0:
+        print('Fizz')
+    else:
+        print(i)
+        i=i+1
+
+#For muliples of five print "Buzz"
+i = 1 
+for i in range(51):
+    if i % 5 ==0:
+        print('Buzz')
+    else:
+        print(i)
+        i=i+1
+
+#For numbers which are multiples of both three and five print "FizzBuzz".
+i = 1 
+for i in range(51):
+    if i % 5 ==0 and i % 3 ==0:
+        print('FizzBuzz')
+    else:
+        print(i)
+        i=i+1
+
+#
