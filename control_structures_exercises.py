@@ -5,11 +5,11 @@
 happy_monday = 'Monday'
 user_input = input('What day of the week is it?: ')
 
-while user_input != happy_monday:
+if user_input != happy_monday:
     print('Dang, wish it was Monday...')
-    user_input = input('Monday' or 'monday')
 
-print('YES! Thank God it is Monday!')
+else:
+    print('YES! Thank God it is Monday!')
 
 
 
