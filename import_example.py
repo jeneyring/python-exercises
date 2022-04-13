@@ -17,4 +17,3 @@ from function_exercises import is_vowel
 from function_exercises import calculate_tip
 
 
-import intertools
