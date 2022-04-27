@@ -17,3 +17,4 @@ Total_on_rentals = rented_movies[1][2]* 3
 
 #Suppose you're working as a contractor for 3 companies: Google, Amazon and Facebook, they pay you a different rate per hour. Google pays 400 dollars per hour, Amazon 380, and Facebook 350. How much will you receive in payment for this week? You worked 10 hours for Facebook, 6 hours for Google and 4 hours for Amazon.
 
+### need to work on and finalize!!!
